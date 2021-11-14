@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header div {
+  display: flex;
+  padding-left: 140px;
+  background-color: grey;
+  color: red;
+  position: relative;
+  margin-right: 100px;
+}
+#contact {
+  position: absolute;
+  top: 4%;
+  left: 620px;
+  right: 0%;
+  height: 900px;
+}
+#contact h3 {
+  display: none;
+}
+#contact dl {
+  display: flex;
+  margin: 0;
+}
+
+#contact dl dt {
+  width: 130px;
+  display: inline-block;
+  background-color: red;
+}
+#contact dl dd a{
+  text-decoration: none;
+  color: red;
+}
+#contact dl dd {
+  width: 500px;
+  display: inline-block;
+  background-color: black;
+  
+  
+}
+#contact dl dt{
+  color: white;
+}
+
+h3{
+  padding-left: 40px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+section {
+  width: 50%;
+  margin-bottom: 3%;
+}
+
+section h3 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 1%;
+  margin-bottom: 3%;
+}
+
+section h4 {
+  color: red;
+}
+
+section p {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+h3:before{
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.skills {
+  width: 100%;
+ 
+}
+.skill {
+  text-align:left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(177, 173, 173);
+  margin-bottom: 2px;
+ 
+}
+[data-skill="6"] span {
+  width: 30%;
+  background-color: rgba(151, 0, 0, 0.712);
+  display: inline-block;
+  padding: 5px;}
+
+[data-skill="3"] span {
+  width: 30%;
+  background-color: rgba(151, 0, 0, 0.712);
+  display: inline-block;
+  padding: 5px;
+}[data-skill="1"] span {
+  width: 20%;
+  background-color: rgba(151, 0, 0, 0.712);
+  display: inline-block;
+  padding: 5px;
+}
+[data-skill="9"] span {
+  width: 90%;
+  background-color: rgba(243, 81, 81, 0.712);
+  display: inline-block;
+  padding: 5px;
+}
+[data-skill="5"] span {
+  width: 70%;
+  background-color: rgba(243, 81, 81, 0.712);
+  display: inline-block;
+  padding: 5px;
+}
+[data-skill="7"] span {
+  width: 80%;
+  background-color: rgba(243, 81, 81, 0.712);
+  display: inline-block;
+  padding: 5px;
+}
+.experience-date,
+.experience-location {
+  color: grey;
+  padding-left: 2%;
+}
+
+.experience-date-separator {
+  color: red;
+}
+
+.experience-typ {
+  display: inline-block;
+}
+.experience{
+  padding-left: 10px;
+}
+ul{
+  
+  margin-left: 30px;
+}
