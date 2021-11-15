@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h2 {
+  display: none;
+}
+
+h1 {
+  border-bottom: 1px solid grey;
+}
+
+img {
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 20px;
+  left: 720px;
+}
+
+#about h3 {
+  display: none;
+}
+
+#about p {
+  width: 60ch;
+  color: grey;
+  margin-bottom: 15%;
+}
+
+
+#competencies h3 {
+  border-right: 1.5px solid black;
+}
+#competencies {
+  display:inline-block;
+  margin-bottom: 5%;
+ 
+}
+.skills {
+  display: flex;
+  margin-left: 35%;
+  border-left: 1.5px solid black;
+ 
+  
+}
+.skills-primary{
+  width: 400px;
+  height: 40px;
+  display: flex;
+ 
+}
+.skills-secondary{
+  width: 400px;
+  height: 40px;
+  display: flex;
+ 
+}
+.skill::after { 
+  }
+.skill {
+  padding: 8px 10px;
+  margin: 3px;
+  background-color: #008080;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  
+}
+
+[data-skill="6"] span::after {
+  content:'★★★';
+ margin-left: 25px;
+}
+[data-skill="3"] span::after {
+  content:'★★';
+  margin-left: 50px;
+}
+[data-skill="1"] span::after {
+ content:"★" ;
+ margin-left: 30px;
+}
+[data-skill="9"] span::after {
+  content:"★★★★★" ;
+  font-size: 12px;
+  margin-left: 15px;
+}
+[data-skill="5"] span::after {
+  content:"★★★" ;
+  font-size: 12px;
+  margin-left: 45px;
+}
+[data-skill="7"] span::after {
+  content:"★★★★" ;
+  font-size: 12px;
+  margin-left: 8px;
+}
+.experience {
+  margin-bottom: 5%;
+  border-left: 1.5px solid black;
+  margin-left: 17%;
+  padding-left: 3%;
+  
+}
+
+.experience-type {
+  color: #008080;
+}
+
+.experience-institution {
+  display: none;
+}
+
+.experience-details {
+  color: gray;
+  margin-top: -20px;
+}
+
+.experience-details {
+  float: right;
+}
+
+.experience-description::before {
+  content: "\a";
+  white-space: pre;
+}
+
+#hobbies ul {
+  margin-bottom: 5%;
+  border-left: 1.5px solid black;
+  margin-left: 17%;
+  padding-left: 3%;
+}
+
+#contact h3 {
+  display: none;
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-bottom:40px;
+}
+
+.contact-email {
+  background-image: url(../images/email.png);
+  display: block;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 100px;
+}
+
+.contact-phone {
+  background-image: url(../images/phone.png);
+  display: block;
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.contact-github {
+  background-image: url(../images/github.png);
+  display: block;
+  background-position: center;
+  background-size: cover;
+  width: 130px;
+  height: 100px;
+}
+
+.contact-facebook {
+  background-image: url(../images/facebook.png);
+  display: block;
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+dt,
+dd {
+  display: none;
+}
