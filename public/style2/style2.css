@@ -34,19 +34,18 @@ img {
 }
 
 
-#competencies h3 {
-  border-right: 1.5px solid black;
-}
+
 #competencies {
   display:inline-block;
   margin-bottom: 5%;
+  
  
 }
 .skills {
   display: flex;
   margin-left: 35%;
   border-left: 1.5px solid black;
- 
+  margin-right: 10%;
   
 }
 .skills-primary{
@@ -118,12 +117,11 @@ img {
 
 .experience-details {
   color: gray;
-  margin-top: -20px;
+  margin-left: -30px;
+  float:right;
 }
 
-.experience-details {
-  float: right;
-}
+
 
 .experience-description::before {
   content: "\a";
@@ -186,4 +184,50 @@ img {
 dt,
 dd {
   display: none;
+}
+@media (max-width: 479px) {
+  img {
+    display: none;
+  }
+  #competencies h3 {
+    border-right: none;
+  }
+
+  #competencies {
+    display: block;
+    margin-bottom: 15%;
+  }
+  section h3 {
+    border-bottom: 1px solid black;
+    width: 30%;
+  }
+  .experience,
+  .skills,
+  .skills,
+  #hobbies ul {
+    border-left: none;
+    
+  }
+  
+  
+  #contact {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 90px;
+  }
+
+  .skills-primary,
+  .experience,
+  .education,
+  .hobbies {
+    padding-top: 30px;
+  }
+
+  .experience-description {
+    width: 50ch;
+  }
+
+  #hobbies {
+    margin-bottom: 10%;
+  }
 }
